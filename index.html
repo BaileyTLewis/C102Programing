@@ -36,6 +36,18 @@
 
 
     </div>
+
+    <h2>Play my dice game</h2>
+
+    <button onclick="PlayDiceGame();">play game</button>
+    <div id="divMessage">waiting for the game to start</div>
+    <div id="divRoll1"></div>
+    <div id="divRoll2"></div>
+    <div id="divSum"></div>
+
+    <script src="Script.js"></script>
+
+
     <h2> there 4 pillars of programing </h2>
 
 
@@ -51,13 +63,43 @@
         // let is the best way to create a javascript variables
 
         let firstname = "Bailey";
-        
+        //var and let are basically equivalant for the purpose of this class - use to let cause its better
         var lastname = "Lewis";
     </script>
-
-    <h3>variables</h3>
-    <h3>decison logic (if/else)</h3>
+    
     <h3>Function</h3>
+    <script>
+
+        //let's talk about - function - function are way orgianize chunks of code; 
+        // function also allow us to write code 1 time and resuse it as many time we as we need to
+        
+        //week 3
+
+       function addnumbers(){
+       let number1 = 5;
+       let number2 = 8;
+
+
+       let=sum = number1 + number2;
+
+       console.log("the sum is: + ", sum);
+       }     
+
+       addnumbers();
+    </script>
+    <h3>decison logic (if/else)</h3>
+    <script>
+        if (firstname == "Bailey" && lastname == "Lewis"){
+            console.log("Bailey is here.");
+
+        }
+        else if (firstname == "Bailey2"){
+            console.log("Bailey2 is here.");
+        }
+        else{
+            console.log("Bailey is not here")
+        }
+    </script>
     <h3>Loops</h3>
 </body>
 <!-- the closing hmtl tag should be at the very end of the file -->
