@@ -1,0 +1,46 @@
+/* this is a CSS comment - this is only comment style
+CSS syntaz:
+
+
+selector{
+      property: value;
+      property: value:
+      
+}
+
+
+selector: 3 options: HTML tag/element, ID of an element (#id), custom class -stares . (.clasname)
+
+just use use external css files in this class
+*/
+
+body {
+    background-color: black;
+    color: white;
+}
+/* header will just apply section with the title */
+header{
+    text-align: center;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+margin-right: 200px;
+
+}
+
+
+#BeeDisplay1{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    /* Helps changes position of the display */
+}
